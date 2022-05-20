@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-public class StringUtils {
+public class StringUtil {
     public static final int MILLISECOND=0;
     public static final int SECOND=1;
     public static String formatTime(long time){

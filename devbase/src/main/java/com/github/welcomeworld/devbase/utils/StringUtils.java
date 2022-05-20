@@ -93,5 +93,9 @@ public class StringUtils {
             return flow/1024/1024/1024+"GB";
         }
     }
+
+    public static boolean isEmpty(String source){
+        return source==null||source.trim().isEmpty();
+    }
 }
 

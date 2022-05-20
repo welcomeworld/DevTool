@@ -20,4 +20,12 @@ public class ThreadUtil {
     public static void postDelayed(long delay, Runnable r) {
         gUiHandler.postDelayed(r, delay);
     }
+
+    public static void sleep(long time) {
+        try {
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
